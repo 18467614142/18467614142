@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Ekip</title>
+
+    <style>
+
+
+/* Navbar stilleri */
+.navbar-nav {
+   font-size: 18px;
+   margin-right: 45px;
+}
+
+.navbar-nav .nav-link {
+   font-size: 22px;
+   color: black;
+   transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+         color: rgb(231, 97, 140);
+      }
+
+
+.line {
+   flex-grow: 1;
+   height: 6px;
+}
+
+.line-gri {
+   background-color: #ecf0f1;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+/* Grid stilleri */
+.grid-item {
+   background-color: #f8f9fa;
+   padding: 20px;
+   margin: 10px;
+   text-align: center;
+}
+
+/* Mavi başlık */
+.mavi_baslk {
+   color: #be00b4e5;
+}
+
+img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+  }
+  
+        /* Kart stilleri */
+        .kart {
+            background-color: rgb(255, 255, 255);
+            margin-bottom: 15px;
+        }
+
+        .kart img {
+            width: 80%;
+            height: auto;
+            border: 6px solid #e9ecef;
+            border-radius: 4px;
+        }
+
+        .kart-body {
+            padding: 20px;
+        }
+
+        .kart_basligi {
+            color: rgb(49, 96, 130);
+            margin: 5px;
+        }
+
+        .alt_bilgi {
+    background-color: #6a00ff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.alt_bilgi_yazı {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alt_bilgi_link {
+    list-style: none;
+    margin: 0;
+    padding: 50;
+    display: flex;
+}
+
+.alt_bilgi_link li {
+    margin-right: 20px;
+}
+
+.alt_bilgi_link a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+</style>
+
+
+</head>
+<body>
+  <div class="konteyner mt-3">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+            <img src="img.html/logo.png" alt="" class="img-fluid"> <!-- mt-3: Üst boşluk ekler -->
+        </div>
+    </div>
+</div>
+<!--navbar menü kısmı -->
+<div class="konteyner mt-3">
+<div class="row">
+    <div class="col-12 d-flex justify-content-center">
+<nav class="navbar navbar-expand-lg ">
+
+<div class="container-fluid " style="background-color: rgb(255, 255, 255);">
+  <a class="navbar-brand" href="index.html">ANASAYFA</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="hakkimizda.html">HAKKIMIZDA</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="hizmetlerimiz.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          HİZMETLERİMİZ
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="nisan.html">Nişan Konseptlerimiz</a></li>
+          <li><a class="dropdown-item" href="kina.html">Kına Konseptlerimiz</a></li>
+          <li><a class="dropdown-item" href="dugun.html">Düğün Konseptlerimiz</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="dogum gunu.html">Doğum Günü Konseptlerimiz</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="galeri.html">GALERİ</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="ekip.html">EKİP</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="iletisim.html">İLETİŞİM</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="sss.html">SSS</a>
+      </li>
+
+    </ul>
+
+
+  </div>
+</div>
+</nav>
+    </div></div></div>
+
+
+
+
+<!-- Kartlar -->
+<div class="konteyner">
+    <div class="row">
+
+        <div class="col-md-12">
+            <h3 class="text-center mb-3" style="color: #6a00ff; margin-top: 15px; margin-bottom: 15px;">EKİP ARKADAŞLARIMIZ</h3>
+
+            <!-- İlk Kart -->
+            <div class="card kart">
+                <div class="row g-0 d-flex justify-content-center">
+                    <div class="col-4">
+                        <img src="img.html/irem.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8 kart-body">
+                        <h6 class="kart_basligi text-start"><u>İrem Nur Kanlı</u></h6>
+                        <p class="kart_basligi text-start">
+                            Biz, bu harika yolculukta bir araya gelmiş bir grup tutkulu bireyiz. Her birimiz kendi alanında uzmanlaşmış, yaratıcı ve enerjik kişiliklere sahibiz. <br>
+                            <ul>
+                                <li> İrem yaklaşık bir buçuk yıldır bizim ekibimizde. </li>
+                                <li> Sizlerin en özel anlarınızda en profesyonel şekilde istihdam sağlıyor. </li>
+                                <li> Ekibimizin enerji deposu, projelerimize getirdiği heyecan ve enerji ile tanınan İrem, projelerimize estetik bir dokunuş katıyor. </li>
+                                <li> Birden fazla projeyi aynı anda yönetme konusunda muhteşem bir denge kurar. </li>
+                                <li> Sorularınız varsa ona sorabilirsiniz. </li>
+                            </ul>
+                            <br>
+                            <p> Her birimiz, farklı yetenekler ve bakış açılarıyla birbirimizi tamamlıyoruz. Bu renkli ve çeşitli ekibin bir parçası olmaktan gurur duyuyoruz! 🚀💼 </p>
+                                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- İkinci Kart -->
+            <div class="card kart">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="img.html/sude.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8 kart-body">
+                        <h6 class="kart_basligi text-start"><u>Sude Yeşil</u></h6>
+                        <p class="kart_basligi text-start">
+                            Biz, bu harika yolculukta bir araya gelmiş bir grup tutkulu bireyiz. Her birimiz kendi alanında uzmanlaşmış, yaratıcı ve enerjik kişiliklere sahibiz. <br>
+                            <ul>
+                                <li> Sude yaklaşık bir yıldır bizimle beraber. </li>
+                                <li> Sizlerin en özel anlarınızda en profesyonel şekilde istihdam sağlıyor. </li>
+                                <li> Ekibimizin neşesi Sude, her anında pozitif enerjisiyle etrafındakilere motivasyon aşılayan, günün her anında hazır bir performans sergiler. </li>
+                                <li> Her adımını bir plan doğrultusunda atar ve sonuçları hep başarılı olur. </li>
+                                <li> Sorularınız varsa ona sorabilirsiniz. </li>                             
+                            </ul>
+                            <br>
+                            <p> Her birimiz, farklı yetenekler ve bakış açılarıyla birbirimizi tamamlıyoruz. Bu renkli ve çeşitli ekibin bir parçası olmaktan gurur duyuyoruz! 🚀💼 </p>
+                           
+                            
+                            
+        
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card kart">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="img.html/ceylin.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8 kart-body">
+                        <h6 class="kart_basligi text-start"><u>Ceylin Soy</u></h6>
+                        <p class="kart_basligi text-start">
+                            Biz, bu harika yolculukta bir araya gelmiş bir grup tutkulu bireyiz. Her birimiz kendi alanında uzmanlaşmış, yaratıcı ve enerjik kişiliklere sahibiz. <br>
+                            <ul>
+                                <li> Ceylin yaklaşık bir yıldır ekibimizde. </li>
+                                <li> Sizlerin en özel anlarından en profesyonel şekilde istihdam sağlıyor. </li>
+                                <li> Renkli kişiliği ve tasarım yetenekleriyle Ceylin, yoğun çalışma saatlerinde bile gülümsemesini asla kaybetmiyor ve etrafındakilere pozitif enerji saçıyor. </li>
+                                <li> Her gün yeni şeyler öğrenmekten keyif alır ve bu tutumuyla ekibe ilham verir. </li>
+                                <li> Sorularınız varsa ona sorabilirsiniz. </li>
+                            </ul>
+                            <br>
+                            <p> Her bir ekip arkadaşımız, bu organizasyonun renkli mozaiğinin birer parçası ve hep birlikte daha güçlüyüz! 🚀🌈  </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card kart">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="img.html/rabia.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8 kart-body">
+                        <h6 class="kart_basligi text-start"><u>Rabia Kılıçarslan</u></h6>
+                        <p class="kart_basligi text-start">
+                            Biz, bu harika yolculukta bir araya gelmiş bir grup tutkulu bireyiz. Her birimiz kendi alanında uzmanlaşmış, yaratıcı ve enerjik kişiliklere sahibiz. <br>
+                            <ul>
+                                <li> Rabia yaklaşık beş yıldır ekimizde. </li>
+                                <li> Sizlerin en özel anlarında en profesyonel şekilde istihdam sağlıyor. </li>
+                                <li> Bilgi birikimiyle ve tecrübeleriyle tanınan Rabia, karşılaşılan sorunları birer fırsata çevirme konusunda eşsiz bir yeteneğe sahip. </li>
+                                <li> Yeni fikirleri yeşertir ve ekibin büyümesine katkıda bulunur. </li>
+                                <li> Sorularınız varsa ona sorabilirsiniz. </li>
+                            </ul>
+                            <br>
+                            <p> Her bir ekip arkadaşımız, bu organizasyonun renkli mozaiğinin birer parçası ve hep birlikte daha güçlüyüz! 🚀🌈 </p>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card kart">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <img src="img.html/elif.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-8 kart-body">
+                        <h6 class="kart_basligi text-start"><u>Elif Hörü Kanlı</u></h6>
+                        <p class="kart_basligi text-start">
+                            Biz, bu harika yolculukta bir araya gelmiş bir grup tutkulu bireyiz. Her birimiz kendi alanında uzmanlaşmış, yaratıcı ve enerjik kişiliklere sahibiz. <br>
+                            <ul>
+                                <li> Elif yaklaşık bir yıldır bizimle beraber. </li>
+                                <li> Sizlerin en özel anlarında en profesyonel şekilde istihdam sağlıyor. </li>
+                                <li> Renk paletimizin bir parçası Elif, markamızı etkili bir şekilde tanıtmak için kelimeleri ustalıkla kullanır. </li>
+                                <li> Herkesi güler yüzü ve olumlu enerjisiyle karşılıyor. </li>
+                                <li> Sorularınız varsa ona sorabilirsiniz. </li>
+                            </ul>
+                            <br>
+                            <p> Her birimiz, bu organizasyonun eşsiz birer parçası olarak birbirimizi tamamlayan ve güçlendiren bir ekibiz! 🌟🚀 </p>
+                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div></div><div></div>
+<br> <br> 
+
+
+<footer class="alt_bilgi">
+    <div class="alt_bilgi_yazı">
+        <p>&copy; 2024 Berna Organizasyon tüm hakları saklıdır.</p> <br>
+        <br>
+
+        <ul class="alt_bilgi_link">
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="nisan.html">Nişan Hizmetlerimiz</a></li>
+            <li><a href="kina.html">Kına Hizmetlerimiz</a></li>
+            <li><a href="dugun.html">Balo Hizmetlerimiz</a></li>
+            <li><a href="dogum gunu.html">Doğum Günü Hizmetlerimiz</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="ekip.html">Ekip</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+            <li><a href="sss.html">SSS</a></li>
+            
+      </ul>
+    </div>
+</footer>
+
+
+
+  <!-- JavaScript Dosyalarını Ekleyin -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
